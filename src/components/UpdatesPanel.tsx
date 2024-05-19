@@ -9,7 +9,7 @@ const UpdatesPanel = () => {
         marginLeft: 2,
       }}
     >
-      <Typography variant="h5">What's New?</Typography>
+      <Typography variant="h5">ENJOY..!!</Typography>
       {updates.map((update) => (
         <>
           <List dense>

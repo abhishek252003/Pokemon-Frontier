@@ -90,10 +90,10 @@ const NavBar = () => {
               direction="row"
               alignItems="center"
               gap={1}
-              onClick={() => navigate('/leaderboard')}
+              onClick={() => navigate('/')}
             >
               <Leaderboard fontSize="inherit" />
-              <Typography variant="h6">Leaderboard</Typography>
+              <Typography variant="h6">Pokemon Frontier</Typography>
             </Stack>
           )}
         </motion.div>

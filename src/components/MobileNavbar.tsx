@@ -28,7 +28,7 @@ const MobileNavbar = () => {
         fullWidth
         href="/leaderboard"
       >
-        Leaderboard
+        Pokemon Frontier
       </Button>
       <SupportMe isMobile />
     </Box>

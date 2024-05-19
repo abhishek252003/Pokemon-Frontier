@@ -13,9 +13,9 @@ const SupportMe = ({ isMobile = false }: Props) => {
       alignItems={isMobile ? 'flex-start' : 'flex-end'}
     >
       <Typography variant="h6" fontSize={14} marginBottom={1}>
-        Enjoying the game?
+        
       </Typography>
-      <Button
+      {/* <Button
         color="primary"
         variant="outlined"
         size="small"
@@ -24,8 +24,8 @@ const SupportMe = ({ isMobile = false }: Props) => {
       >
         <People sx={{ fontSize: 14, marginRight: 1 }} />
         Join the Discord
-      </Button>
-      <Button
+      </Button> */}
+      {/* <Button
         color="success"
         variant="outlined"
         size="small"
@@ -33,10 +33,10 @@ const SupportMe = ({ isMobile = false }: Props) => {
       >
         <Paid sx={{ fontSize: 14, marginRight: 1 }} />
         Donate
-      </Button>
-      <Typography variant="body1" fontSize={14} marginTop={1}>
+      </Button> */}
+      {/* <Typography variant="body1" fontSize={14} marginTop={1}>
         GCash 0930 911 8777
-      </Typography>
+      </Typography> */}
     </Stack>
   )
 }
